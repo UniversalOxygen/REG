@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Roboto:wght@100;400&display=swap');
+
+body {
+    font-family: Poppins;
+    padding: 40px;
+    margin: 0;
+    background: url('./bg-intro-desktop.png') no-repeat center center / cover hsl(0, 100%, 74%);
+}
+
+section {
+    padding: 50px;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 40px;
+}
+
+.decript {
+    margin-top: 30px;
+    margin-right: 0;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    font-weight: 1000px;
+    font-size: 40px;
+    font-stretch: wider;
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-family: Poppins;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+#info {
+    width: 400px;
+    min-width: 300px;
+    height: 100%;
+}
+.trial {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: hsl(248, 32%, 49%);
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: auto;
+}
+
+.trial h5 {
+    font-size: 10px;
+    margin: auto;
+    color: #f3f3f3;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 11.25px;
+    margin-bottom: 5px;
+}
+
+
+button {
+    border: none;
+}
+
+
+
+form {
+    padding: 10px 5px;
+    border-radius: 5px;
+    background: white;
+}
+
+.form-el {
+    margin: 0 auto 12.5px auto;
+    padding: 3px;
+    width: 80%;
+}
+
+.form-con {
+    width: 100%;
+    height: 25px;
+    padding: 3.75px 7.5px;
+    color: hsl(246, 25%, 77%);
+    background: white;
+    border: 1px solid hsl(246, 25%, 77%);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+#submit {
+    font-size: 10px;
+    color: white;
+    display: block;
+    margin-left: 15px;
+    width: 85%;
+    padding: 7.5px;
+    background: hsl(154, 59%, 51%);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.terms {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+h6 {
+    color: hsl(246, 25%, 77%);
+    
+}
+
+h6 em {
+    color: hsl(0, 100%, 74%);
+    font-style: normal;
+}
+
+
+@media screen and (max-width:425px){
+    section {
+        padding: 5px;
+        display: block;
+        margin-top: 0px;
+    }
+
+    .decript {
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    h1 {
+    color: white;
+    font-weight: bold;
+    font-weight: 100px;
+    font-size: 30px;
+    font-stretch: semi-expanded;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: Poppins;
+    color: white;
+    font-weight: 200;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+#info {
+    width: 200px;
+    height: 100%;
+}
+.trial {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: hsl(248, 32%, 49%);
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: auto;
+}
+
+.trial h5 {
+    font-size: 10px;
+    margin: auto;
+    color: #f3f3f3;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 11.25px;
+    margin-bottom: 5px;
+}
+
+
+button {
+    border: none;
+}
+
+
+
+form {
+    padding: 10px 5px;
+    border-radius: 5px;
+    background: white;
+}
+
+.form-el {
+    margin: 0 auto 12.5px auto;
+    padding: 3px;
+    width: 80%;
+}
+
+.form-con {
+    width: 100%;
+    height: 25px;
+    padding: 3.75px 7.5px;
+    color: hsl(246, 25%, 77%);
+    background: white;
+    border: 1px solid hsl(246, 25%, 77%);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+#submit {
+    font-size: 10px;
+    color: white;
+    display: block;
+    margin-left: 15px;
+    width: 85%;
+    padding: 7.5px;
+    background: hsl(154, 59%, 51%);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.terms {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+h6 {
+    color: hsl(246, 25%, 77%);
+    
+}
+
+h6 em {
+    color: hsl(0, 100%, 74%);
+    font-style: normal;
+}
+
+    
+}
+
+
+
+@media screen and (max-width:375px){
+    body {
+        background: url('./bg-intro-mobile.png') no-repeat center center / cover hsl(0, 100%, 74%);
+    }
+
+    section {
+        padding: 5px;
+        display: block;
+        margin-top: 0px;
+    }
+
+    .decript {
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    h1 {
+    color: white;
+    font-weight: bold;
+    font-weight: 100px;
+    font-size: 30px;
+    font-stretch: semi-expanded;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: Poppins;
+    color: hsl(246, 25%, 77%);
+    font-weight: 200;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+#info {
+    width: 200px;
+    height: 100%;
+}
+.trial {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: hsl(248, 32%, 49%);
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: auto;
+}
+
+.trial h5 {
+    font-size: 10px;
+    margin: auto;
+    color: #f3f3f3;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 11.25px;
+    margin-bottom: 5px;
+}
+
+
+button {
+    border: none;
+}
+
+
+
+form {
+    padding: 10px 5px;
+    border-radius: 5px;
+    background: white;
+}
+
+.form-el {
+    margin: 0 auto 12.5px auto;
+    padding: 3px;
+    width: 80%;
+}
+
+.form-con {
+    width: 100%;
+    height: 25px;
+    padding: 3.75px 7.5px;
+    color: hsl(246, 25%, 77%);
+    background: white;
+    border: 1px solid hsl(246, 25%, 77%);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+#submit {
+    font-size: 10px;
+    color: white;
+    display: block;
+    margin-left: 15px;
+    width: 85%;
+    padding: 7.5px;
+    background: hsl(154, 59%, 51%);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.terms {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+h6 {
+    color: hsl(246, 25%, 77%);
+    
+}
+
+h6 em {
+    color: hsl(0, 100%, 74%);
+    font-style: normal;
+}
+
+    
+}
